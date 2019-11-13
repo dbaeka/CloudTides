@@ -19,6 +19,6 @@ module.exports = merge(common, {
         historyApiFallback: true,
     },
     plugins: [
-        new HtmlWebpackPlugin({template: './src/index.html'}),
+        new HtmlWebpackPlugin({template: './public/index.html'}),
     ]
 });
