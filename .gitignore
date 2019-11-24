@@ -1,3 +1,19 @@
 client/node_modules
+<<<<<<< HEAD
 package-lock.json
 yarn.lock
+=======
+client/public/bundle
+server/.idea
+cloud-tides.css
+package-lock.json
+stats.json
+**/__pycache__/
+db.sqlite3
+client/.idea
+client/dummy_data
+.idea
+.coverage
+coverage.svg
+.dat.nosync0216.YIhZVp
+>>>>>>> 099650ac3b038aeef5dbca2b18b9b3b02e8275f1
