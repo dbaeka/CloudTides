@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 
 import { Dispatcher, Constants } from "../../../flux";
 
@@ -25,6 +26,31 @@ class NavbarToggle extends React.Component {
       </nav>
     )
   }
+=======
+import Actions from '../../../flux/actions';
+
+class NavbarToggle extends React.Component {
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        Actions.toggleMenu();
+    }
+
+    render() {
+        return (
+            <nav className="nav">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a href="#" onClick={this.handleClick}
+                   className="nav-link nav-link-icon toggle-sidebar d-sm-inline d-md-inline d-lg-none text-center">
+                    <i className="material-icons">&#xE5D2;</i>
+                </a>
+            </nav>
+        )
+    }
+>>>>>>> 099650ac3b038aeef5dbca2b18b9b3b02e8275f1
 }
 
 export default NavbarToggle;

@@ -3,3 +3,7 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 python manage.py createsuperuser
+<<<<<<< HEAD
+=======
+python manage.py syncdb
+>>>>>>> 099650ac3b038aeef5dbca2b18b9b3b02e8275f1
